@@ -1,0 +1,131 @@
+.itc-slider {
+  position: relative;
+}
+
+.itc-slider__wrapper {
+  overflow: hidden;
+}
+
+.itc-slider__items {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.itc-slider__transition-none {
+  transition: none;
+}
+
+.itc-slider__item {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+  height: 180px;
+  display: flex;
+}
+
+/* кнопки влево и вправо */
+.itc-slider__btn {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 45px;
+  color: #fff;
+  text-align: center;
+  background: rgb(0 0 0 / 20%);
+  border: none;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.itc-slider__btn_hide {
+  display: none;
+}
+
+.itc-slider__btn_prev {
+  left: 0;
+}
+
+.itc-slider__btn_next {
+  right: 0;
+}
+
+.itc-slider__btn:hover,
+.itc-slider__btn:focus {
+  color: #fff;
+  text-decoration: none;
+  background: rgb(0 0 0 / 30%);
+  outline: 0;
+}
+
+/* индикаторы */
+.itc-slider__indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  margin: 0 15%;
+  padding-left: 0;
+  list-style: none;
+}
+
+.itc-slider__indicator {
+  flex: 0 1 auto;
+  box-sizing: content-box;
+  width: 30px;
+  height: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: rgb(255 255 255 / 50%);
+  background-clip: padding-box;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  cursor: pointer;
+}
+
+.itc-slider__indicator_active {
+  background-color: rgb(255 255 255 / 90%);
+}
+
+.slider1 {
+  width: 100%;
+  margin: 0 10px;
+  border-radius: 16px;
+  background-image: url(images/slider1.png);
+}
+.slider2 {
+  width: 100%;
+  margin: 0 10px;
+  border-radius: 16px;
+  background-image: url(images/slider2.png);
+}
+.slider3 {
+  width: 100%;
+  margin: 0 10px;
+  border-radius: 16px;
+  background-image: url(images/slider3.png);
+}
+.slider4 {
+  width: 100%;
+  margin: 0 10px;
+  border-radius: 16px;
+  background-image: url(images/slider4.png);
+}
+.slider5 {
+  width: 100%;
+  margin: 0 10px;
+  border-radius: 16px;
+  background-image: url(images/slider5.png);
+}
+.slider6 {
+  width: 100%;
+  margin: 0 10px;
+  border-radius: 16px;
+  background-image: url(images/slider6.png);
+}
