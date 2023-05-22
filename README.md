@@ -1,7 +1,7 @@
 Changed twitter with the addition of new pages such as, Groups, Announcement.
 Nice design.
-Admin Panel
-Dark Mode
+Admin Panel.
+Dark Mode.
 
 ![Frame 1](https://github.com/Adamovvv/Twitter_Clone/assets/53522209/947f513a-d8d9-457a-a883-d55c2c8c1eb6)
 
